@@ -11,6 +11,7 @@ Crear los siguientes métodos para la clase:
   si la cantidad introducida es negativa, no se hará nada.
 - retirar(cantidad): se retira una cantidad a la cuenta. La cuenta puede estar en números rojos
 '''
+# Eje 7 esta es una modificacion
 
 class Cuenta:
 
@@ -39,8 +40,8 @@ class Cuenta:
 
     @property # Getter
     def mostrar(self):
-        print(f"Titular:  {self.__titular}")
-        print(f"Cantidad: {self.__cantidad}")
+        print(f"El Titular:  {self.__titular}")
+        print(f"La Cantidad: {self.__cantidad}")
 
     @cantidad.setter # Setter
     def ingresar(self, nuevo__ingreso):
